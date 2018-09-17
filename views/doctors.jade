@@ -1,0 +1,68 @@
+extends layout
+
+doctype strict
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    title Find a Doctor
+    meta(http-equiv='Content-Language', content='English')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    link(rel='stylesheet', type='text/css', href='style.css', media='screen')
+  body
+    #wrap
+      #header
+        h1
+          a(href='#') Find a Doctor
+        h2 Search for local Doctors
+      #menu
+        ul
+          li
+            a(href='index.html') Home
+          li
+            a(href='doctors.html') Browse Doctors
+          li
+            a(href='add-doctor.html') Add Doctor
+          li
+            a(href='add-category.html') Add Category
+      #content
+        .left
+          h2 Browse Doctors
+          br
+          ul.docs
+            li
+              h3 Dr Someone
+              p Specialty: General
+              p Location: Boston MA
+              p
+                a(href='details.html') > Details
+            li
+              h3 Dr Someone
+              p Specialty: General
+              p Location: Boston MA
+              p
+                a(href='details.html') > Details
+            li
+              h3 Dr Someone
+              p Specialty: General
+              p Location: Boston MA
+              p
+                a(href='details.html') > Details
+        .right
+          h2 Categories :
+          ul
+            li
+              a(href='#') General
+            li
+              a(href='#') Audologist
+            li
+              a(href='#') Cardiologist
+            li
+              a(href='#') Dentist
+            li
+              a(href='#') Emergency Doctor
+            li
+              a(href='#') Neurologist
+        div(style='clear: both;')  
+      
+
+
+        
